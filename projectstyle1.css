@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --main-bg-color: #f2575b;
+  }
+
+  
+*{
+    margin: 0;padding: 0;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+
+}
+
+nav ul li a{
+   
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+footer{
+    position: unset;
+    margin-top: 95vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+
+    
+}
+.search input{
+    width: 63vh;
+    height: 4vh;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 0 16px 0 56px;
+    padding: 0 15px;
+    
+}
+
+::placeholder {
+    color: rgb(112, 108, 108);
+    letter-spacing: 1vh;
+    text-align: center;
+    
+  }
+
+ 
+.container{
+    height: 80vh;
+}
+
+.btn{
+    padding: 5px 7px;
+    background-color: #f59699;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+.slider{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.con{
+    display: flex;
+    padding: 2.5em;
+}
+
+.aside{
+    
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: .5em;
+    
+    background-color: rgb(255, 207, 207) ;
+}
+
+.i{
+    justify-content: center;
+    background-color: white;
+    padding: 2em;
+    margin: 0 3em;
+    
+}
+
+.i p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    padding-left: 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.i img{
+    cursor: pointer;
+}
